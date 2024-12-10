@@ -1,0 +1,130 @@
+*{
+    background-color: rgb(180, 188, 206);
+}
+
+#w{
+    color: black;
+    text-align: center;
+    font-size: 27px;
+
+}
+
+#w:hover{
+    background-color: rgb(158, 160, 184);
+}
+
+.p{
+    text-align: center;
+}
+
+
+#l{
+    width: 275px;
+    height: 275px;
+    float: left;
+}
+
+#l:hover{
+    width: 300px;
+    height: 300px;
+}
+
+.box {
+        height: 200px; /* Set height of the box */
+        justify-content: center; /* Center horizontally */
+        align-items: center; /* Center vertically */
+        margin: 40px; /* Add margin for spacing */
+        display: flex;
+
+    }
+
+.box{
+    padding-left: 40px;
+    margin-top: 40px;
+}
+
+#r{
+    float: right;
+    padding-right: 15px;
+    margin-top: 50px;
+}
+
+#r:hover{
+    width:310px;
+    height: 310px;
+}
+
+#hr1{
+    border: none; /* Remove default border */
+    height: 1px; /* Thickness of the line */
+    background-color: #5c6f83; /* Change this to your desired color */
+    margin: 15px 0; /* Space above and below the hr */
+}
+
+#zz{
+    width: 275px;
+    height: 275px;
+    float: left;
+    margin-top: 15px;
+}
+
+#zz:hover{
+    width: 288px;
+    height: 288px;
+    display:block;
+    margin: auto;
+
+}
+
+.box2 {
+    margin: 0 auto;
+    text-align: left;
+    padding-inline-start: 300px;
+   
+}
+
+#p{
+    float: right;
+    padding-right: 15px;
+    margin-top: 50px;
+}
+
+#p:hover{
+    width: 288px;
+    height: 288px;
+
+}
+
+#pop{
+    text-align: center;
+    font-size: 22px;
+}
+
+#b{
+    float: right;
+    padding-top: 45px;
+}
+
+#a{
+    float: left;
+}
+
+a{
+    text-decoration: none;
+    color:rgb(63, 69, 128);
+}
+
+a:hover{
+    font-size: 20px;
+    color: black;
+    
+}
+
+.div2{
+    text-align: center;
+    font-size: 17px;
+}
+
+#p1{
+    font-size: 21px;
+}
