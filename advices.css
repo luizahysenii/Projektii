@@ -1,0 +1,126 @@
+body{
+    background:#aeb9ca;
+}
+
+h2{
+    text-align: center;
+}
+
+p{
+    font-size: 17px;
+}
+
+#p1{
+    text-align: center;
+	line-height: 1.5;
+	font-size: 16px;
+	font-family:Arial, Helvetica, sans-serif;
+}
+
+#p2{
+    text-align: center;
+    color: rgb(40, 40, 100);
+}
+#p3{
+    text-align: center;
+}
+
+
+.gallery img{
+    margin:40px;
+}
+
+.three-column-list {
+    display: flex;
+    flex-wrap: wrap;
+    list-style-type:circle; /* Remove bullet points */
+    padding: 0; /* Remove default padding */
+}
+
+.three-column-list li {
+    width: 20%; /* Each item takes up half the width */
+    box-sizing: border-box; /* Include padding/border in width */
+    padding: 10px; /* Optional: add some padding */
+}
+
+table{
+
+	width: 950px;
+	box-shadow: -1px 12px 12px -6px rgba(0,0,0,0.5);
+	margin-left: 70px;
+
+}
+
+table, td, th{
+
+	padding: 18px;
+	border: 1px solid lightgray;
+	border-collapse: collapse;
+	text-align: center;
+	cursor: pointer;
+
+}
+
+td{
+	font-size: 18px;
+}
+
+th{
+	background-color:rgb(101, 137, 173);
+	color: white;
+}
+
+tr:nth-child(odd){
+	background-color: rgb(131, 164, 197);
+}
+
+tr:nth-child(odd):hover{
+
+	background-color: rgb(101, 137, 173);
+	color: white;
+	transform: scale(1.05);
+	transition: transform 300ms ease-in;
+
+}
+
+tr:nth-child(even){
+	background-color: #ededed;
+}
+
+tr:nth-child(even):hover{
+	background-color: lightgray;
+	transform: scale(1.05);
+	transition: transform 300ms ease-in;
+
+}
+
+.paragraf1{
+	text-align: center;
+	margin: 40px;
+	font-size: 17px;
+	line-height: 1.5;
+}
+
+#list{
+	list-style-type: circle;
+	display:inline-block;
+}
+
+.drugs{
+	display:grid;
+	grid-template-columns: repeat(2, 1fr); /* 2 columns */
+    gap: 20px;
+	
+}
+
+hr {
+		grid-column: span 2; /* Span across all columns */
+		border: 0;
+		border-top: 2px solid #6a6691;
+		margin: 0.5px ;
+	}
+
+#info{
+	font-size: 22px;
+	text-align: center;
+}
